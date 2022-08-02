@@ -8,23 +8,29 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    z-index: 10;
+
     &__text {
         width: 120px;
         height: 120px;
-        font-size: 14px;        
+        font-size: 14px;
+
         span {
             display: flex;
             transform: rotate(-90deg) translateX(-50px);
         }
     }
+
     &__divider {
         width: 1px;
         height: 165px;
         background-color: #000;
     }
+
     &__icon {
         width: 24px;
         height: 24px;
+
         img {
             width: 100%;
         }

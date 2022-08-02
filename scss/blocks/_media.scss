@@ -1,0 +1,289 @@
+@media (max-width: 1439px) {
+    .sidepanel {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .header__left-block {
+        min-width: 500px;
+    }
+
+    .tabcontainer {
+        width: auto;
+    }
+
+    .tabcontent__descr {
+        top: 250px;
+        padding: 30px;
+        height: auto;
+    }
+
+    .bgc_blue {
+        height: calc(100% + 155px);
+    }
+
+    .menu__field {
+        .container {
+            justify-content: space-around;
+            ;
+        }
+    }
+}
+
+
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .header {
+        flex-wrap: wrap;
+        justify-content: center;
+
+        &__left-block {
+            padding-right: 30px;
+        }
+    }
+
+    .tabheader__items {
+        margin-top: 20px;
+    }
+
+    .tabheader__item {
+        font-size: 16px;
+
+        &_active {
+            font-size: 18px;
+        }
+    }
+
+    .tabcontent__descr {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .preview {
+        padding: 28px 0 40px 0;
+
+        &__life {
+            margin-left: 0;
+            margin-top: 100px;
+            text-align: center;
+        }
+    }
+
+    .offer {
+        &__advantages {
+            padding-right: 5px;
+        }
+
+        &__advantages-text {
+            margin-top: 10px;
+        }
+
+        &__text {
+            width: 500px;
+            padding-right: 20px;
+        }
+
+        &__slider {
+            width: 415px;
+        }
+
+        &__slide {
+            width: 415px;
+            height: auto;
+        }
+    }
+
+    .calculating {
+        &__choose {
+
+            &_medium,
+            &_big {
+                width: auto;
+                justify-content: space-around;
+                flex-wrap: wrap;
+            }
+
+            &-item {
+                margin: 0px 5px 20px 5px;
+            }
+
+            #female,
+            #male {
+                margin: 0;
+            }
+        }
+    }
+
+
+
+
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 540px;
+        flex-wrap: wrap;
+    }
+
+    .tabcontent__descr {
+        right: auto;
+        width: 540px;
+    }
+
+    .preview__life {
+        margin-top: 180px;
+    }
+
+    .title {
+        font-size: 26px;
+    }
+
+    .offer {
+        padding: 70px 0 40px 0;
+
+        &__descr {
+            font-size: 16px;
+        }
+
+        .bgc_y {
+            width: 100%;
+        }
+
+        &__action {
+            margin-top: 20px;
+        }
+
+        &__advantages {
+            margin-top: 10px;
+
+            h2:first-child {
+                margin-top: 20px;
+            }
+        }
+
+        &__slider {
+            width: 540px;
+
+            &-prev,
+            &-next {
+                img {
+                    margin-bottom: 6px;
+                }
+            }
+        }
+
+        &__slide {
+            width: 540px;
+        }
+
+
+        #current {
+            font-size: 34px;
+        }
+
+        #total {
+            font-size: 18px;
+        }
+    }
+
+
+}
+
+@media (max-width: 575px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+        flex-wrap: wrap;
+    }
+
+    .header {
+        padding: 0 5px;
+
+        &__logo {
+            padding: 10px 20px 0 20px;
+        }
+
+        &__left-block {
+            padding-right: 0px;
+            flex-wrap: wrap;
+            min-width: auto;
+            justify-content: center;
+        }
+
+        &__links {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        &__link {
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .preview {
+        padding: 40px 0 100px 0;
+    }
+
+    .tabcontainer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tabcontent__descr {
+        width: auto;
+        top: 0;
+        padding: 5px 5px 10px 10px;
+    }
+
+    .preview {
+        padding: 40px 0 30px 0;
+
+        &__life {
+            margin-top: 30px;
+        }
+    }
+
+    .divider {
+        width: 60%;
+    }
+
+    .offer {
+        &__action {
+            margin: 20px auto 0 auto;
+        }
+
+        &__advantages-text {
+            font-size: 16px;
+        }
+
+        &__slider {
+            width: 97%;
+        }
+
+        &__slide {
+            width: 97%;
+        }
+    }
+
+    .calculating {
+        &__total {
+            width: auto;
+            flex-direction: column;
+        }
+
+        &__result span {
+            font-size: 32px;
+        }
+    }
+
+}

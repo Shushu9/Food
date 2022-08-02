@@ -2,32 +2,37 @@
 @import './variables/variables';
 @import './base.scss';
 
-@import './blocks/header/header.scss';
-@import './blocks/sidepanel/sidepanel';
-@import './blocks/preview/preview';
-@import './blocks/offer/offer';
-@import './blocks/calculating/calculating';
-@import './blocks/menu/menu';
-@import './blocks/order/order';
-@import './blocks/promotion/promotion';
-@import './blocks/footer/footer';
-@import './blocks/modal/modal';
+@import './blocks/header.scss';
+@import './blocks/sidepanel';
+@import './blocks/preview';
+@import './blocks/offer';
+@import './blocks/calculating';
+@import './blocks/menu';
+@import './blocks/order';
+@import './blocks/promotion';
+@import './blocks/footer';
+@import './blocks/modal';
+@import './blocks/media';
 
 .show {
     display: block;
 }
+
 .hide {
     display: none;
 }
-.fade{
+
+.fade {
     animation-name: fade;
-    animation-duration: 1.5s;
+    animation-duration: 1.1s;
 }
-@keyframes fade{
-    from{
+
+@keyframes fade {
+    from {
         opacity: 0.1;
     }
-    to{
+
+    to {
         opacity: 1;
     }
 }
