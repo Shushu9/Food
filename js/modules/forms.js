@@ -36,11 +36,11 @@ function forms(formSelector, modalTimerId) {
                 .then(data => {
                     console.log(data);
                     showThanksModal(message.success);
-                    statusMessage.remove();
                 }).catch(() => {
                     showThanksModal(message.failure);
                 }).finally(() => {
                     form.reset();
+                    statusMessage.remove();
                 });
         });
     }
